@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://dp86ksdv8brpl"]
+
+[ext_resource type="Script" uid="uid://dr8yp0r4b35mt" path="res://win.gd" id="1_wao2c"]
+
+[node name="Win" type="Control" unique_id=1725829475]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wao2c")
+
+[node name="Label" type="Label" parent="." unique_id=1458832947]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 149.0
+offset_right = 766.0
+offset_bottom = 558.0
+theme_override_font_sizes/font_size = 75
+text = "temp"
+
+[node name="Label2" type="Label" parent="." unique_id=1534251163]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 270.0
+offset_right = 1152.0
+offset_bottom = 347.0
+theme_override_font_sizes/font_size = 75
+text = "hi"
